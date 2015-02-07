@@ -1,0 +1,93 @@
+﻿html, body{
+	width:900px;
+	margin:10px auto;
+	background:silver url('bg.png') repeat left top;
+}
+
+
+.head
+{
+	margin:0 0 50px 0;
+}
+
+h2
+{
+	margin:0;
+	color: #02819F;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+small{
+    font-size: 0.9em;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+pre
+{
+    width: 100%;
+    -moz-box-sizing: border-box;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+    border-color: #9A9A96 #F8F9F2 #F8F9F2 #9A9A96;
+    border-style: solid;
+    border-width: 1px;
+    color: #000000;
+    font-size: 0.9em;
+    text-align:left;
+    line-height: 110%;
+    overflow: auto;
+    padding: 10px;
+}
+
+ul, li{
+	margin:0;
+	padding:0;
+	list-style:none;
+    font-size: 1.0em;
+	font-weight:bold;
+	color:#646464;
+	text-shadow: 0 1px 0 #ffffff;
+}
+
+li.action, li.move, li.left, li.right, li.center, li.wheel
+{
+	height:85px;
+	padding:0 0 0 60px;
+}
+
+li.move
+{
+	background:transparent url('m-move.png') no-repeat scroll left top;
+}
+li.left
+{
+	background:transparent url('m-click-left.png') no-repeat scroll left top;
+}
+li.right
+{
+	background:transparent url('m-click-right.png') no-repeat scroll left top;
+}
+li.center
+{
+	background:transparent url('m-click-center.png') no-repeat scroll left top;
+}
+li.wheel
+{
+	background:transparent url('m-wheel.png') no-repeat scroll left top;
+}
+.fb-like-button
+{
+	float:right;
+}
+.fb-comments-area
+{
+	padding:100px 0 0 0;
+}
+
+.copyright
+{
+	width:300px;
+	margin:4px auto;
+    font-size: 0.9em;
+    text-align:center;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
